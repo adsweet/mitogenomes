@@ -11,7 +11,7 @@ Usage: python3 get_insect_mt_genomes.py -e <email adress> -o <output file>
 #### Arguments
 - `-h, --help`
   - Lists arguments
-- `-o, --output OUTFILE`
+- `-o, --output`
   - Output file as a GenBank flat file
  
 ### insect_mito_stats.py
@@ -23,10 +23,10 @@ Usage: python3 insect_mito_stats.py -i <input> -f <input file format> -o <output
 #### Arguments
 - `-h, --help`
   - Lists arguments
-  - `-i, --input`
+- `-i, --input`
   - Input file
-  - `-f, --format`
+- `-f, --format`
   - File format of the input file; "genbank" or "fasta"
-- `-o, --output OUTFILE`
+- `-o, --output`
   - Output file as a tab-delimited table
 
