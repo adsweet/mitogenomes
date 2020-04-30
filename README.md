@@ -11,6 +11,8 @@ Usage: python3 get_insect_mt_genomes.py -e <email adress> -o <output file>
 #### Arguments
 - `-h, --help`
   - Lists arguments
+- `-e, --email`
+  - An email address for pulling GenBank data
 - `-o, --output`
   - Output file as a GenBank flat file
  
