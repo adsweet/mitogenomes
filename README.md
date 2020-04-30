@@ -12,7 +12,7 @@ Usage: python3 get_insect_mt_genomes.py -e <email adress> -o <output file>
 - `-h, --help`
   - Lists arguments
 - `-e, --email`
-  - An email address for pulling GenBank data
+  - An email address for pulling GenBank data using Entrez
 - `-o, --output`
   - Output file as a GenBank flat file
  
