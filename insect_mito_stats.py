@@ -15,8 +15,6 @@ parser.add_argument("--format","-f", help="Input file format", required=True)
 parser.add_argument("--output","-o", help="Output file", required=True)
 args = parser.parse_args()
 
-#gb_file = "insect_mito_sequences.gb"
-
 with open(args.output, "w") as output:
 	if args.format == "genbank":
 		output.write("Species" + '\t' + "Order" + '\t' + "Accession" + '\t' + "AT_percent" + '\t' + "GC_percent" + '\t' + "AT_skew" + '\t' + "GC_skew" + '\n')
