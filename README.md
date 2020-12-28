@@ -17,7 +17,7 @@ Usage: python3 get_insect_mt_genomes.py -e <email adress> -o <output file>
   - Output file as a GenBank flat file
  
 ### insect_mito_stats.py
-Python script to calculate nucleotide composition stats (AT%, AT-skew, and GC-skew) from an input file in GenBank for FASTA format. Outputs a tab-delimited table.
+Python script to calculate nucleotide composition stats (AT%, AT-skew, and GC-skew) from an input file in GenBank or FASTA format. Outputs a tab-delimited table.
 
 ```
 Usage: python3 insect_mito_stats.py -i <input> -f <input file format> -o <output>
